@@ -2,6 +2,8 @@ import NavBar from "./component/navbar/NavBar";
 import Banner from "./component/banner/Banner"
 import CountryChooseSection from "./section/CountryChooseSection";
 import WhyChooseNHP from "./section/WhyChooseNHP";
+import CounterShow from "./section/counterSection/CounterShow";
+import WhyAreDiffrent from "./section/WhyAreDiffrent";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
         <Banner />
         <CountryChooseSection />
         <WhyChooseNHP />
+        <CounterShow />
+        <WhyAreDiffrent />
       </header>
     </>
   );

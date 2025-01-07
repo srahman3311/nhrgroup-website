@@ -35,9 +35,14 @@ body {
   transform: translateX(0);
 }
 .bannerBackground {
-  background: url("../../public/bannerImage.jpg");
+  background: url("../../public/bannerImage.jpg") center / cover;
 
   z-index: 10;
+}
+.diffrentBackgroundImage {
+  background: url("../../public//hwwrd.webp");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .afterbg {
   position: relative;
