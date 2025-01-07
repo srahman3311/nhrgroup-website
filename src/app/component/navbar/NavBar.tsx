@@ -5,7 +5,7 @@ import { BsJustifyLeft } from "react-icons/bs"
 
 const NavBar = () => {
     return (
-        <nav className="flex w-full items-center justify-between gap-6 controllLargewidth h-[6vh]">
+        <nav className="flex items-center justify-between gap-6 w-[min(100%_-_3rem,_170ch)] mx-auto px-2 md:px-8 lg:px-12 py-8 md:py-8 lg:py-7">
             <div className="w-[300px] md:w-full lg:w-[50vw] xl:w-[25vw]">
                 <Image
                     width={5000}
