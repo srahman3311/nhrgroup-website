@@ -5,7 +5,7 @@ import { countryData } from "../data/countryData"
 
 const CountryChooseSection = () => {
     return (
-        <div className="controllLargewidth w-[50%] h-fit lg:h-screen flex flex-col justify-between gap-12 !mt-4">
+        <div id="studyAboard" className="controllLargewidth w-[50%] h-fit lg:h-screen flex flex-col justify-between gap-12 !mt-4">
             <div className="w-full flex  items-start justify-between flex-col lg:flex-row gap-4 lg:gap-6">
                 <div className="w-full text-center">
 

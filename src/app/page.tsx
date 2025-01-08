@@ -4,6 +4,7 @@ import CountryChooseSection from "./section/CountryChooseSection";
 import WhyChooseNHP from "./section/WhyChooseNHP";
 import CounterShow from "./section/counterSection/CounterShow";
 import WhyAreDiffrent from "./section/WhyAreDiffrent";
+import VisaandWork from "./section/VisaandWork";
 
 export default function Home() {
   return (
@@ -18,11 +19,17 @@ export default function Home() {
       <header>
         <NavBar />
         <Banner />
+      </header>
+      <main>
+
         <CountryChooseSection />
         <WhyChooseNHP />
         <CounterShow />
         <WhyAreDiffrent />
-      </header>
+        <VisaandWork />
+
+      </main>
+
     </>
   );
 }

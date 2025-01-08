@@ -11,17 +11,17 @@ const NavBar = () => {
                     width={5000}
                     height={5000}
                     alt="Logo"
-                    src={"/nhp-logo.png"}
+                    src={"/nhp-logo.webp"}
                 />
             </div>
             <menu className="">
                 <div className="md:flex hidden items-center justify-center md:gap-3 lg:gap-6">
 
                     <Link className="midLevelText text-red-600 uppercase text-nowrap" href={"/"}>Home</Link>
-                    <Link className="midLevelText uppercase text-nowrap" href={"/#study aboard"}>Study Aboard</Link>
-                    <Link className="midLevelText uppercase text-nowrap" href={"/#Scholarship"}>Scholarship</Link>
-                    <Link className="midLevelText uppercase text-nowrap" href={"/#Scholarship"}>University</Link>
-                    <Link className="midLevelText uppercase text-nowrap" href={"/#Scholarship"}>Contact</Link>
+                    <Link className="midLevelText uppercase text-nowrap" href={"#studyAboard"}>Study Aboard</Link>
+                    <Link className="midLevelText uppercase text-nowrap" href={"#whyChoseNhp"}>Scholarship</Link>
+                    <Link className="midLevelText uppercase text-nowrap" href={"#whyWeDiffrent"}>University</Link>
+                    <Link className="midLevelText uppercase text-nowrap" href={"#Scholarship"}>Contact</Link>
                 </div>
 
                 <div className="block md:hidden text-xl font-semibold">

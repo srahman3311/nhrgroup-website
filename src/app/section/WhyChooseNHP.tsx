@@ -5,7 +5,7 @@ import { whyChooseNhpDate } from "../data/countryData"
 
 const WhyChooseNHP = () => {
     return (
-        <div className="bg-[#F4F4F4] h-fit lg:min-h-screen flex flex-col justify-between gap-12 ">
+        <div id="whyChoseNhp" className="bg-[#F4F4F4] h-fit lg:min-h-screen flex flex-col justify-between gap-12 ">
             <div className="w-full flex controllLargewidth items-start justify-between flex-col lg:flex-row gap-4 lg:gap-6">
                 <div className="w-full text-center">
 
@@ -19,9 +19,9 @@ const WhyChooseNHP = () => {
                 </div>
             </div>
 
-            <div className="controllLargewidth grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="controllLargewidth grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-full lg:max-w-[90%]">
                 {whyChooseNhpDate.map((singleCountryData) => {
-                    return <div className="shadow-md border bg-white border-slate-100 p-6 flex items-start justify-center gap-2 flex-col hover:shadow-lg transition-all cursor-pointer group hover:bg-[#193759]" key={singleCountryData.title}>
+                    return <div className="shadow-md border bg-white border-slate-100  p-6 flex items-start justify-center gap-2 flex-col hover:shadow-lg transition-all cursor-pointer group hover:bg-[#193759]" key={singleCountryData.title}>
                         <div className="flex justify-between items-center gap-6">
 
                             <div className="text-5xl transition-all group-hover:text-white">
