@@ -69,3 +69,7 @@ body {
   height: 30px;
   background: red;
 }
+::placeholder {
+  font-size: small;
+  color: #000;
+}

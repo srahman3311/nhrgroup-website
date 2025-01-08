@@ -5,6 +5,7 @@ import WhyChooseNHP from "./section/WhyChooseNHP";
 import CounterShow from "./section/counterSection/CounterShow";
 import WhyAreDiffrent from "./section/WhyAreDiffrent";
 import VisaandWork from "./section/VisaandWork";
+import StudentSay from "./section/StudentSay";
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
         <CounterShow />
         <WhyAreDiffrent />
         <VisaandWork />
-
+        <StudentSay />
       </main>
 
     </>

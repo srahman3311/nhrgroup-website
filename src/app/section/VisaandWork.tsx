@@ -21,7 +21,7 @@ const VisaandWork = () => {
                             <h2 className=" text-3xl font-bold">Visa Success <strong className="text-blue-400">Ratio</strong></h2>
                             <span style={{ width: "60px", height: "2px", background: "#000" }} className="inline-block"></span>
                             <br />
-                            <p className="mt-8">We have a very good visa success rates due to our very professional commitment towards our students.</p>
+                            <p className="mt-8 text-slate-600">We have a very good visa success rates due to our very professional commitment towards our students.</p>
                         </div>
                         <div className="flex items-end justify-start gap-4">
                             <div className="w-12 h-[400px] bg-black  text-white ">
@@ -82,11 +82,11 @@ const VisaandWork = () => {
                     <h2 className=" text-3xl font-bold">How We <strong className="text-blue-400">Work?</strong></h2>
                     <span style={{ width: "60px", height: "2px", background: "#000" }} className="inline-block"></span>
                     <br />
-                    <p className="mt-8">It is very easy to apply through NHP Education Consultants. It starts from career counselling and ends in pre-departure orientation.</p>
+                    <p className="mt-8 text-slate-600">It is very easy to apply through NHP Education Consultants. It starts from career counselling and ends in pre-departure orientation.</p>
                 </div>
 
                 <div className="w-full flex py-0 md:py-12 px-0 md:px-24 lg:px-16 origin-left scale-75 md:scale-100">
-                    <div className=" flex items-center max-w-fit border-r-4 border-black mr-8 flex-col flex-grow">
+                    <div className=" flex items-center max-w-fit border-r-2 border-black mr-8 flex-col flex-grow">
                         <div className="h-full flex items-center justify-center px-6">
                             <div className="px-6 relative py-4 bg-black text-white text-nowrap">
                                 <h2>Step 1</h2>
@@ -96,13 +96,13 @@ const VisaandWork = () => {
                         <div className="h-full flex items-center justify-center px-6">
                             <div className="px-6 relative py-4 bg-black text-white text-nowrap">
                                 <h2>Step 2</h2>
-                                <div className="w-4 h-4 bg-white border-2 border-black rounded-full absolute top-[50%] right-[-34px] translate-y-[-50%]"></div>
+                                <div className="w-4 h-4 bg-white border-2 border-black rounded-full absolute top-[50%] right-[-33px] translate-y-[-50%]"></div>
                             </div>
                         </div>
                         <div className="h-full flex items-center justify-center px-6">
                             <div className="px-6 relative py-4 bg-black text-white text-nowrap">
                                 <h2>Step 3</h2>
-                                <div className="w-4 h-4 bg-white border-2 border-black rounded-full absolute top-[50%] right-[-34px] translate-y-[-50%]"></div>
+                                <div className="w-4 h-4 bg-white border-2 border-black rounded-full absolute top-[50%] right-[-33px] translate-y-[-50%]"></div>
                             </div>
                         </div>
                     </div>
